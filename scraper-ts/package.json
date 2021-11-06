@@ -1,0 +1,30 @@
+{
+  "name": "scraper-ts",
+  "version": "0.0.0",
+  "description": "scraper-ts",
+  "main": "app.js",
+  "author": {
+    "name": "Roshka.DV"
+  },
+  "devDependencies": {
+    "@types/async": "^3.2.1",
+    "@types/cheerio": "^0.22.18",
+    "@types/minimist": ">=1.2.0",
+    "@types/node": "^12.12.38",
+    "@types/pg": "^7.14.3",
+    "@types/request": "^2.48.4",
+    "@types/request-promise-native": "^1.0.17",
+    "@types/tress": ">=1.0.1",
+    "form-data": "^2.5.1"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "minimist": "^1.2.5",
+    "moment": "^2.25.3",
+    "pg": "^8.1.0",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8",
+    "tress": "^1.1.4"
+  }
+}

@@ -1,0 +1,9 @@
+﻿{
+  "connection_params": {
+    "user": "ficbook",
+    "host": "localhost",
+    "database": "ficbook",
+    "password": "password",
+    "port": 5432
+  }
+}

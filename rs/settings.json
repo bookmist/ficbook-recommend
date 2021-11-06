@@ -1,0 +1,9 @@
+﻿{
+  "TNS_ADMIN":"c:\\app\\Roshka.DV\\product\\11.2.0\\client_64\\network\\admin\\",
+  "ORACLE_HOME":"c:\\app\\instantclient_12_2\\",
+  "connection_params" : {
+    "user": "ficbook",
+    "password": "ficbook",
+    "connectString": "roshka_local"
+  }
+}

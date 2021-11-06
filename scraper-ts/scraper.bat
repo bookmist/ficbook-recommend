@@ -1,0 +1,1 @@
+"c:\Program Files\nodejs\node.exe" --trace-warnings app.js %*

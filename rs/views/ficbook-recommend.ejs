@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic&subset=latin,cyrillic,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
+    <title>Сборники</title>
+    <link rel="stylesheet" href="https://static.ficbook.net/ficbook/assets/app.e7b8cccf.css">
+    <meta name="theme-color" content="#ffffff">
+    <base href="https://ficbook.net/">
+</head>
+<body>
+<div id="wrapper">
+    <div class="container">
+        <div class="row row-main">
+            <div class="col-lg-16 main-container">
+                <div class="w1">
+                    <div class="book-container">
+                        <div class="book-corner-left-top hidden-xs"></div>
+                        <div class="book-corner-right-top hidden-xs"></div>
+                        <div class="book-corner-right-bottom hidden-xs"></div>
+                        <div class="book-corner-left-bottom hidden-xs"></div>
+                        <div class="book-stiches-top hidden-xs"></div>
+                        <div class="book-stiches-left hidden-xs"></div>
+                        <div class="book-stiches-right hidden-xs"></div>
+                        <div class="book-stiches-bottom hidden-xs"></div>
+                        <div class="book-inner">
+                            <div class="pages-left1"></div>
+                            <div class="pages-left2"></div>
+                            <div class="pages-left3"></div>
+                            <div class="pages-left4"></div>
+                            <div class="pages-left5"></div>
+                            <div class="pages-right1"></div>
+                            <div class="pages-right2"></div>
+                            <div class="pages-right3"></div>
+                            <div class="pages-right4"></div>
+                            <div class="pages-right5"></div>
+
+                            <main id="main" role="main">
+                                <div class="main-holder alt">
+                                    <section class="content-section">
+                                      <% books.forEach(function(book){ %>
+                                        <section class="fanfic-thumb-block">
+                                          <%- book %>
+                                        </section>
+                                      <% }); %>
+                                        <%#- books %>
+                                    </section>
+                                </div>
+                            </main>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

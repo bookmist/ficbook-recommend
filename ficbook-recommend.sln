@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "scraper-ts", "scraper-ts\scraper-ts.njsproj", "{8D094CB3-38FF-4CA8-9803-542920C08CB0}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "rs", "rs\rs.njsproj", "{F65B9833-62A5-44F2-B950-417261B4EBC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D094CB3-38FF-4CA8-9803-542920C08CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D094CB3-38FF-4CA8-9803-542920C08CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D094CB3-38FF-4CA8-9803-542920C08CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D094CB3-38FF-4CA8-9803-542920C08CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F65B9833-62A5-44F2-B950-417261B4EBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F65B9833-62A5-44F2-B950-417261B4EBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F65B9833-62A5-44F2-B950-417261B4EBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F65B9833-62A5-44F2-B950-417261B4EBC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {097D5B16-BF76-47A4-92FA-B46F1D84E0B8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+bin/
+node_modules/
+obj/
+npm-debug.log
+*.js
+*.js.map
+data.sqlite
